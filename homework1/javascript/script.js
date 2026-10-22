@@ -9,7 +9,7 @@ window.addEventListener(`load`, () => {
             const nameOfFirstChildren = (_a = prompt(`Введіть ім'я першої дитини`)) !== null && _a !== void 0 ? _a : `дитина №1`;
             const firstChildrenQuantityOfCandies = parseInt((_b = prompt(`Введіть кількість цукерок першої дитини`)) !== null && _b !== void 0 ? _b : `1`);
             const nameOfSecondChildren = (_c = prompt(`Введіть ім'я другої дитини`)) !== null && _c !== void 0 ? _c : `дитина №2`;
-            const secondChildrenQuantityOfCandies = parseInt((_d = prompt(`Введіть кількість цукерок друшгої дитиини`)) !== null && _d !== void 0 ? _d : `2`);
+            const secondChildrenQuantityOfCandies = parseInt((_d = prompt(`Введіть кількість цукерок друшгої дитини`)) !== null && _d !== void 0 ? _d : `2`);
             const spanElement = document.querySelector(`.span0`);
             let text = ``;
             if (firstChildrenQuantityOfCandies != secondChildrenQuantityOfCandies) {
