@@ -152,12 +152,12 @@ window.addEventListener(`load`,() => {
         }
         return arr 
       }
-      //Фунція яка виводить суму додатніх чисел масиву
+      //Фунція яка виводить добуток додатніх чисел масиву
       function sumNum(arr:number[]):void{
         let sum:number = 0
         for(let num of USER_ARROW) {
           if(num > 0) {
-            sum += num
+            sum = sum * num
           }
         }
         document.write(`сума чисел більше 0 = ${sum}`)
