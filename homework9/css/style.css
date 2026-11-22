@@ -1,0 +1,14 @@
+a{
+  display: block;
+  font-size: 20px;
+}
+
+a:hover {
+  color:rgb(11, 133, 133)
+}
+
+a:not(:last-child) {
+  margin-bottom: 20px;
+}
+body{
+}
